@@ -1,8 +1,6 @@
-# Replacus
+# Contributte Replacus
 
 Parameter & placeholder replacer
-
------
 
 [![Build Status](https://img.shields.io/travis/contributte/replacus.svg?style=flat-square)](https://travis-ci.org/contributte/replacus)
 [![Code coverage](https://img.shields.io/coveralls/contributte/replacus.svg?style=flat-square)](https://coveralls.io/r/contributte/replacus)
@@ -10,29 +8,24 @@ Parameter & placeholder replacer
 [![Downloads this Month](https://img.shields.io/packagist/dm/contributte/replacus.svg?style=flat-square)](https://packagist.org/packages/contributte/replacus)
 [![Downloads total](https://img.shields.io/packagist/dt/contributte/replacus.svg?style=flat-square)](https://packagist.org/packages/contributte/replacus)
 [![Latest stable](https://img.shields.io/packagist/v/contributte/replacus.svg?style=flat-square)](https://packagist.org/packages/contributte/replacus)
-[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)
+[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat-square)](https://github.com/phpstan/phpstan)
 
 ## Discussion / Help
 
 [![Join the chat](https://img.shields.io/gitter/room/contributte/contributte.svg?style=flat-square)](https://gitter.im/contributte/contributte)
 
-## Install
+## Documentation
 
-Install via composer.
-
-```sh
-composer require contributte/replacus
-```
+- [Setup](.docs/README.md#setup)
+- [Usage](.docs/README.md#usage)
 
 ## Versions
 
-| State       | Version       | PHP      |
-|-------------|---------------|----------|
-| stable      | `^0.1`        | `>= 7.1` |
-
-## Overview
-
-- [Usage](.docs/README.md#usage)
+| State       | Version | PHP     |
+|-------------|---------|---------|
+| dev         | `^0.3`  | `^7.2`  |
+| stable      | `^0.2`  | `^7.2`  |
+| stable      | `^0.1`  | `>=7.1` |
 
 ## Maintainers
 
@@ -56,7 +49,5 @@ composer require contributte/replacus
     </tr>
   <tbody>
 </table>
-
------
 
 Thank you for testing, reporting and contributing.

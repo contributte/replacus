@@ -1,23 +1,34 @@
-# Contributte Replacus
+![](https://heatbadger.now.sh/github/readme/contributte/replacus/)
 
-Parameter & placeholder replacer
+<p align=center>
+  <a href="https://github.com/contributte/replacus/actions"><img src="https://badgen.net/github/checks/contributte/replacus/master"></a>
+  <a href="https://coveralls.io/r/contributte/replacus"><img src="https://badgen.net/coveralls/c/github/contributte/replacus"></a>
+  <a href="https://packagist.org/packages/contributte/replacus"><img src="https://badgen.net/packagist/dm/contributte/replacus"></a>
+  <a href="https://packagist.org/packages/contributte/replacus"><img src="https://badgen.net/packagist/v/contributte/replacus"></a>
+</p>
+<p align=center>
+  <a href="https://packagist.org/packages/contributte/replacus"><img src="https://badgen.net/packagist/php/contributte/replacus"></a>
+  <a href="https://github.com/contributte/replacus"><img src="https://badgen.net/github/license/contributte/replacus"></a>
+  <a href="https://bit.ly/ctteg"><img src="https://badgen.net/badge/support/gitter/cyan"></a>
+  <a href="https://bit.ly/cttfo"><img src="https://badgen.net/badge/support/forum/yellow"></a>
+  <a href="https://contributte.org/partners.html"><img src="https://badgen.net/badge/sponsor/donations/F96854"></a>
+</p>
 
-[![Build Status](https://img.shields.io/travis/contributte/replacus.svg?style=flat-square)](https://travis-ci.org/contributte/replacus)
-[![Code coverage](https://img.shields.io/coveralls/contributte/replacus.svg?style=flat-square)](https://coveralls.io/r/contributte/replacus)
-[![Licence](https://img.shields.io/packagist/l/contributte/replacus.svg?style=flat-square)](https://packagist.org/packages/contributte/replacus)
-[![Downloads this Month](https://img.shields.io/packagist/dm/contributte/replacus.svg?style=flat-square)](https://packagist.org/packages/contributte/replacus)
-[![Downloads total](https://img.shields.io/packagist/dt/contributte/replacus.svg?style=flat-square)](https://packagist.org/packages/contributte/replacus)
-[![Latest stable](https://img.shields.io/packagist/v/contributte/replacus.svg?style=flat-square)](https://packagist.org/packages/contributte/replacus)
-[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat-square)](https://github.com/phpstan/phpstan)
+<p align=center>
+Website 🚀 <a href="https://contributte.org">contributte.org</a> | Contact 👨🏻‍💻 <a href="https://f3l1x.io">f3l1x.io</a> | Twitter 🐦 <a href="https://twitter.com/contributte">@contributte</a>
+</p>
 
-## Discussion / Help
+## Usage
 
-[![Join the chat](https://img.shields.io/gitter/room/contributte/contributte.svg?style=flat-square)](https://gitter.im/contributte/contributte)
+To install the latest version of `contributte/replacus` use [Composer](https://getcomposer.org).
+
+```bash
+composer require contributte/replacus
+```
 
 ## Documentation
 
-- [Setup](.docs/README.md#setup)
-- [Usage](.docs/README.md#usage)
+For details on how to use this package, check out our [documentation](.docs).
 
 ## Versions
 
@@ -27,27 +38,20 @@ Parameter & placeholder replacer
 | stable      | `^0.2`  | `^7.2`  |
 | stable      | `^0.1`  | `>=7.1` |
 
-## Maintainers
+## Development
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/f3l1x">
-            <img width="150" height="150" src="https://avatars2.githubusercontent.com/u/538058?v=3&s=150">
-        </a>
-        </br>
-        <a href="https://github.com/f3l1x">Milan Felix Šulc</a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/mabar">
-            <img width="150" height="150" src="https://avatars0.githubusercontent.com/u/20974277?s=150&v=4">
-        </a>
-        </br>
-        <a href="https://github.com/mabar">Marek Bartoš</a>
-      </td>
-    </tr>
-  <tbody>
-</table>
+See [how to contribute](https://contributte.org/contributing.html) to this package.
 
-Thank you for testing, reporting and contributing.
+This package is currently maintaining by these authors.
+
+<a href="https://github.com/f3l1x">
+  <img width="80" height="80" src="https://avatars2.githubusercontent.com/u/538058?v=3&s=80">
+</a>
+<a href="https://github.com/mabar">
+  <img width="80" height="80" src="https://avatars2.githubusercontent.com/u/20974277?s=150&v=4">
+</a>
+
+-----
+
+Consider to [support](https://contributte.org/partners.html) **contributte** development team.
+Also thank you for using this package.

@@ -8,3 +8,5 @@
 # Tests
 /temp
 /coverage.xml
+/tests/output
+/tests/.phpunit.result.cache

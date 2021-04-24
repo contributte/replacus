@@ -47,9 +47,6 @@ This package is currently maintaining by these authors.
 <a href="https://github.com/f3l1x">
   <img width="80" height="80" src="https://avatars2.githubusercontent.com/u/538058?v=3&s=80">
 </a>
-<a href="https://github.com/mabar">
-  <img width="80" height="80" src="https://avatars2.githubusercontent.com/u/20974277?s=150&v=4">
-</a>
 
 -----
 

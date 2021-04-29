@@ -5,7 +5,7 @@
     "latte",
     "replacer"
   ],
-  "license": "MPL-2.0",
+  "license": "MIT",
   "type": "library",
   "homepage": "https://github.com/contributte/replacus",
   "authors": [

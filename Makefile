@@ -15,10 +15,10 @@ phpstan:
 	vendor/bin/phpstan analyse -l max -c phpstan.neon src
 
 tests:
-	vendor/bin/phpunit tests --colors=always
+	vendor/bin/tester -s -p php --colors 1 -C tests/cases
 
 coverage-clover:
-	phpdbg -qrr vendor/bin/phpunit tests --colors=always -c tests/coverage.xml
+	vendor/bin/tester -s -p phpdbg --colors 1 -C --coverage ./coverage.xml --coverage-src ./src tests/cases
 
 coverage-html:
-	phpdbg -qrr vendor/bin/phpunit tests --coverage-html tests/output/coverage-html -c tests/coverage.xml
+	vendor/bin/tester -s -p phpdbg --colors 1 -C --coverage ./coverage.html --coverage-src ./src tests/cases

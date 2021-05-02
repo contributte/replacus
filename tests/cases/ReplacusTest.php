@@ -3,10 +3,18 @@
 namespace Tests\Cases\Contributte\Replacus;
 
 use Contributte\Replacus\Replacus;
-use PHPUnit\Framework\TestCase;
+use Tester\Assert;
+use Tester\TestCase;
+
+require __DIR__ . '/../bootstrap.php';
 
 class ReplacusTest extends TestCase
 {
+
+	public function testFoo(): void
+	{
+		Assert::same('foo', 'foo');
+	}
 
 	/** @var Replacus */
 	private $replacus;
@@ -24,7 +32,7 @@ class ReplacusTest extends TestCase
 	 */
 	public function testReplace(string $input, $result, array $args): void
 	{
-		$this->assertSame($result, $this->replacus->replace($input, $args));
+		Assert::same($result, $this->replacus->replace($input, $args));
 	}
 
 	/**
@@ -32,10 +40,12 @@ class ReplacusTest extends TestCase
 	 */
 	public function validProvider(): iterable
 	{
-		yield['{$foo}', 'bar', ['foo' => 'bar']];
-		yield['{$foo}', '1', ['foo' => '1']];
-		yield['{$foo}', '1', ['foo' => 1]];
-		yield['{$foo[0]}{$foo[1]}', 'ab', ['foo' => ['a', 'b']]];
+		yield ['{$foo}', 'bar', ['foo' => 'bar']];
+		yield ['{$foo}', '1', ['foo' => '1']];
+		yield ['{$foo}', '1', ['foo' => 1]];
+		yield ['{$foo[0]}{$foo[1]}', 'ab', ['foo' => ['a', 'b']]];
 	}
 
 }
+
+(new ReplacusTest())->run();

@@ -34,9 +34,8 @@ For details on how to use this package, check out our [documentation](.docs).
 
 | State       | Version | Branch   | Latte | PHP     |
 |-------------|---------|----------|-------|---------|
-| dev         | `^0.3`  | `master` | 2.4+  | `^7.2`  |
-| stable      | `^0.2`  | `master` | 2.4+  | `^7.2`  |
-| stable      | `^0.1`  | `master` | 2.4+  | `>=7.1` |
+| dev         | `^0.4`  | `master` | 2.5+  | `>=7.2` |
+| stable      | `^0.3`  | `master` | 2.5+  | `>=7.2` |
 
 ## Development
 

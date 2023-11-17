@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace Tests\Cases\Contributte\Replacus;
+namespace Tests\Cases;
 
 use Contributte\Replacus\Replacus;
 use Tester\Assert;
@@ -11,26 +11,18 @@ require __DIR__ . '/../bootstrap.php';
 class ReplacusTest extends TestCase
 {
 
+	private Replacus $replacus;
+
 	public function testFoo(): void
 	{
 		Assert::same('foo', 'foo');
 	}
 
-	/** @var Replacus */
-	private $replacus;
-
-	protected function setUp(): void
-	{
-		parent::setUp();
-		$this->replacus = Replacus::create();
-	}
-
 	/**
-	 * @param mixed   $result
 	 * @param mixed[] $args
 	 * @dataProvider validProvider
 	 */
-	public function testReplace(string $input, $result, array $args): void
+	public function testReplace(string $input, mixed $result, array $args): void
 	{
 		Assert::same($result, $this->replacus->replace($input, $args));
 	}
@@ -44,6 +36,13 @@ class ReplacusTest extends TestCase
 		yield ['{$foo}', '1', ['foo' => '1']];
 		yield ['{$foo}', '1', ['foo' => 1]];
 		yield ['{$foo[0]}{$foo[1]}', 'ab', ['foo' => ['a', 'b']]];
+	}
+
+	protected function setUp(): void
+	{
+		parent::setUp();
+
+		$this->replacus = Replacus::create();
 	}
 
 }

@@ -4,6 +4,7 @@ namespace Contributte\Replacus\Replacer\Latte;
 
 use Contributte\Replacus\Replacer\IReplacer;
 use Contributte\Replacus\Replacer\IReplacerBuilder;
+use Latte\ContentType;
 use Latte\Engine;
 use Latte\Loaders\StringLoader;
 
@@ -33,7 +34,7 @@ class LatteReplacerBuilder implements IReplacerBuilder
 			$this->latte = new Engine();
 			$this->latte->setLoader(new StringLoader());
 			$this->latte->setAutoRefresh(false);
-			$this->latte->setContentType(Engine::CONTENT_HTML);
+			$this->latte->setContentType(ContentType::Html);
 		}
 
 		return $this->latte;

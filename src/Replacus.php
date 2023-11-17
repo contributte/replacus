@@ -8,17 +8,16 @@ use Contributte\Replacus\Replacer\ReplacerFactory;
 class Replacus
 {
 
-	/** @var IReplacer */
-	private $replacer;
-
-	public static function create(): self
-	{
-		return new self((new ReplacerFactory())->create());
-	}
+	private IReplacer $replacer;
 
 	public function __construct(IReplacer $replacer)
 	{
 		$this->replacer = $replacer;
+	}
+
+	public static function create(): self
+	{
+		return new self((new ReplacerFactory())->create());
 	}
 
 	/**

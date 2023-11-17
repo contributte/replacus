@@ -7,8 +7,7 @@ use Contributte\Replacus\Replacer\Latte\LatteReplacerBuilder;
 class ReplacerFactory implements IReplacerFactory
 {
 
-	/** @var IReplacerBuilder|null */
-	protected $builder;
+	protected ?IReplacerBuilder $builder = null;
 
 	public function __construct(?IReplacerBuilder $builder = null)
 	{

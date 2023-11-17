@@ -10,8 +10,7 @@ use Latte\Loaders\StringLoader;
 class LatteReplacerBuilder implements IReplacerBuilder
 {
 
-	/** @var Engine|null */
-	protected $latte;
+	protected ?Engine $latte = null;
 
 	public function __construct(?Engine $latte = null)
 	{

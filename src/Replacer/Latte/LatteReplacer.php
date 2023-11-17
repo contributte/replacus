@@ -8,8 +8,7 @@ use Latte\Engine;
 class LatteReplacer implements IReplacer
 {
 
-	/** @var Engine */
-	private $latte;
+	private Engine $latte;
 
 	public function __construct(Engine $latte)
 	{

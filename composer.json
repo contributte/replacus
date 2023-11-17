@@ -19,15 +19,10 @@
     "latte/latte": "^2.5.1"
   },
   "require-dev": {
-    "nette/tester": "^2.3.2",
     "nette/utils": "^3.0",
-    "ninjify/nunjuck": "^0.3",
-    "ninjify/qa": "^0.12.0",
-    "phpstan/extension-installer": "^1.0",
-    "phpstan/phpstan": "^1.0",
-    "phpstan/phpstan-deprecation-rules": "^1.0",
-    "phpstan/phpstan-nette": "^1.0",
-    "phpstan/phpstan-strict-rules": "^1.0"
+    "contributte/qa": "^0.4",
+    "contributte/tester": "^0.3",
+    "contributte/phpstan": "^0.1"
   },
   "autoload": {
     "psr-4": {

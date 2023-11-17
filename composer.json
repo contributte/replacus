@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "php": ">=7.2",
+    "php": ">=8.1",
     "latte/latte": "^2.5.1"
   },
   "require-dev": {

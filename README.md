@@ -2,7 +2,7 @@
 
 <p align=center>
   <a href="https://github.com/contributte/replacus/actions"><img src="https://badgen.net/github/checks/contributte/replacus/master"></a>
-  <a href="https://coveralls.io/r/contributte/replacus"><img src="https://badgen.net/coveralls/c/github/contributte/replacus"></a>
+  <a href="https://codecov.io/gh/contributte/replacus"><img src="https://badgen.net/codecov/c/github/contributte/replacus"></a>
   <a href="https://packagist.org/packages/contributte/replacus"><img src="https://badgen.net/packagist/dm/contributte/replacus"></a>
   <a href="https://packagist.org/packages/contributte/replacus"><img src="https://badgen.net/packagist/v/contributte/replacus"></a>
 </p>

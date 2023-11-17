@@ -32,10 +32,10 @@ For details on how to use this package, check out our [documentation](.docs).
 
 ## Versions
 
-| State       | Version | Branch   | Latte | PHP     |
-|-------------|---------|----------|-------|---------|
-| dev         | `^0.4`  | `master` | 2.5+  | `>=7.2` |
-| stable      | `^0.3`  | `master` | 2.5+  | `>=7.2` |
+| State       | Version | Branch   | Latte  | PHP     |
+|-------------|---------|----------|--------|---------|
+| dev         | `^0.5`  | `master` | `2.5+` | `>=8.1` |
+| stable      | `^0.4`  | `master` | `2.5+` | `>=8.1` |
 
 ## Development
 
